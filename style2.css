@@ -1,0 +1,56 @@
+table
+{
+	width: 100px;
+	text-align: center;
+	height: 100px;
+}
+
+table:hover
+{
+	cursor: crosshair;
+}
+
+#a, #a:visited
+{
+	color: black;
+	text-decoration: none;
+	background-color: grey;
+	border: 2px solid black;
+}
+
+#b:visited, #b:hover
+{
+	color: silver;
+	text-decoration: none;
+	background-color: black;
+	border: dashed 2px silver;
+}
+
+#marg
+{
+	margin:20px 10px 5px 10px;
+	background-color: green;
+}
+
+#kwiat
+{
+	padding: 30px;
+	background-image: url("kwiaty.jfif");
+	background-repeat: no-repeat;   
+}
+
+p
+{
+	font-family: Tahoma;
+	font-style: italic;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+h1
+{
+	text-decoration: overline;
+	word-spacing: 10px;
+	text-align: right;
+	color: green;
+}
